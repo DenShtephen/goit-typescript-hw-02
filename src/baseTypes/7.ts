@@ -4,15 +4,15 @@
 */
 
 const DaysOfWeek = {
-  Понеділок: "Понеділок",
-  Вівторок: "Вівторок",
-  Середа: "Середа",
-  Четвер: "Четвер",
-  Пятниця: "Пятниця",
-  Субота: "Субота",
-  Неділя: "Неділя",
+  Monday: "Monday",
+  Tuesday: "Tuesday",
+  Wednesday: "Wednesday",
+  Thursday: "Thursday",
+  Friday: "Friday",
+  Saturday: "Saturday",
+  Sunday: "Sunday",
 };
 
 function isWeekend(dayOfWeek) {
-  return dayOfWeek === DaysOfWeek.Субота || dayOfWeek === DaysOfWeek.Неділя;
+  return dayOfWeek === DaysOfWeek.Saturday || dayOfWeek === DaysOfWeek.Sunday;
 }
