@@ -13,6 +13,6 @@ const DaysOfWeek = {
   Sunday: "Sunday",
 };
 
-function isWeekend(dayOfWeek) {
+function isWeekend(dayOfWeek): boolean {
   return dayOfWeek === DaysOfWeek.Saturday || dayOfWeek === DaysOfWeek.Sunday;
 }
